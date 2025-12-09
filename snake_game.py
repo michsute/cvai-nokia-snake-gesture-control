@@ -62,7 +62,7 @@ class SnakeGame:
         self.score = 0
         self.game_over = False
         self.speed_boost = False
-        self.base_speed = 8
+        self.base_speed = 5
         self.boost_speed = 15
         
         # Spawn first fruit
