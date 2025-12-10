@@ -16,7 +16,7 @@ class GameManager:
 
    def __init__(self):
         # Move the game window to the right side of the screen 
-        os.environ['SDL_VIDEO_WINDOW_POS'] = "1000,150"
+        os.environ['SDL_VIDEO_WINDOW_POS'] = "1000,200"
         pygame.init()
        
         self.game = SnakeGame()
