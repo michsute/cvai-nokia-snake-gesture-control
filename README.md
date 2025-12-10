@@ -19,7 +19,7 @@ The project combines:
   - **RIGHT**
   - **UP**
   - **DOWN**
-- Color-based tracking (green glove or object)
+- Color-based tracking (green object)
 - Speed boost indicator
 - Particle effects when eating fruit
 - Gesture detection runs in a separate thread
