@@ -3,6 +3,7 @@ import cv2
 import pygame
 import time
 import threading
+import os
 
 from gesture_tracker import GestureTracker
 from snake_game import SnakeGame
@@ -13,7 +14,11 @@ class GameManager:
     Runs gesture tracking in a separate thread.
     """
 
-    def __init__(self):
+   def __init__(self):
+        # Move the game window to the right side of the screen 
+        os.environ['SDL_VIDEO_WINDOW_POS'] = "1000,150"
+        pygame.init()
+       
         self.game = SnakeGame()
         self.tracker = GestureTracker()
 
