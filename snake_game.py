@@ -30,8 +30,8 @@ class SnakeGame:
         self.BLACK = (0, 0, 0)
         self.WHITE = (255, 255, 255)
         self.NOKIA_GREEN = (155, 188, 15)
-        self.DARK_GREEN = (139, 172, 15)
-        self.LIGHT_GREEN = (204, 255, 51)
+        self.DARK_GREEN = (116, 145, 15)
+        self.LIGHT_GREEN = (184, 226, 58)
         self.RED = (255, 0, 0)
         self.ORANGE = (255, 165, 0)
         
@@ -302,4 +302,5 @@ class SnakeGame:
     
     def quit(self):
         """Quit the game"""
+
         pygame.quit()
