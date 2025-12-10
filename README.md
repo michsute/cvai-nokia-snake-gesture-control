@@ -1,5 +1,3 @@
-# cvai-nokia-snake-gesture-control
-
 # CVAI Project - Nokia Snake Gesture Control 
 
 This project implements a classic Nokia Snake game controlled via swipe gestures using a webcam.  
