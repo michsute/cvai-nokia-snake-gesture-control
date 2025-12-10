@@ -6,8 +6,7 @@ Classic snake game with Nokia-style graphics and mechanics
 
 import pygame
 import random
-import math
-from typing import List, Tuple, Optional
+from typing import Optional
 from enum import Enum
 
 class Direction(Enum):
@@ -304,3 +303,4 @@ class SnakeGame:
         """Quit the game"""
 
         pygame.quit()
+
