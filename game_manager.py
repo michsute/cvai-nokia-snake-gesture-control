@@ -14,7 +14,7 @@ class GameManager:
     Runs gesture tracking in a separate thread.
     """
 
-   def __init__(self):
+    def __init__(self):
         # Move the game window to the right side of the screen 
         os.environ['SDL_VIDEO_WINDOW_POS'] = "1000,200"
         pygame.init()
